@@ -10,4 +10,8 @@
 
 - Persistent Chat History: Stores chat history in MongoDB, allowing users to access previous conversations.
 
+- Displays the list of users currently online.
+
 - User-Friendly Interface: Built with React to provide a smooth and intuitive user experience.
+
+
