@@ -11,8 +11,3 @@
 - Persistent Chat History: Stores chat history in MongoDB, allowing users to access previous conversations.
 
 - User-Friendly Interface: Built with React to provide a smooth and intuitive user experience.
-
-# Demo
-## Check out the live demo of BuzzTalk :- https://buzztalk-mdatif.onrender.com/
-
-# Happy chatting!
