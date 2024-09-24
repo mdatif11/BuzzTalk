@@ -6,6 +6,7 @@ import messageRoutes from "./routes/message.routes.js"
 import userRoutes from "./routes/user.routes.js"
 import cookieParser from "cookie-parser";
 import path from "path";
+import job from "./cron.js"
 
 import { app,server } from "./socket/socket.js";
 
@@ -13,6 +14,7 @@ const PORT = process.env.PORT || 8000;
 
 const __dirname=path.resolve();
 
+job.start();
 dotenv.config();
 
 app.use(express.json());
